@@ -91,7 +91,7 @@ GEM
     ed25519 (1.4.0)
     erb (5.0.2)
     erubi (1.13.1)
-    fino (1.0.0)
+    fino (1.0.1)
       zeitwerk (~> 2.5)
     fino-redis (1.0.0)
       fino (~> 1.0.0)
@@ -272,7 +272,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
-  fino (= 1.0.0)
+  fino (= 1.0.1)
   fino-redis (= 1.0.0)
   fino-ui (= 1.0.0)
   kamal
