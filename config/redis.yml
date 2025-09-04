@@ -1,2 +1,5 @@
 development:
   host: redis.fino.orb.local
+
+production:
+  host: redis

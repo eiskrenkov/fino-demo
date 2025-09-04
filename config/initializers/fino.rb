@@ -5,8 +5,8 @@ require "fino-redis"
 Fino.configure do
   adapter do
     Fino::Redis::Adapter.new(
-      Redis.new(host: "redis.fino.orb.local"),
-      namespace: "fino_dummy"
+      Redis.new(**Rails.application.config_for(:redis)),
+      namespace: "fino_demo"
     )
   end
 
