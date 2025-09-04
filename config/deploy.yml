@@ -95,6 +95,7 @@ accessories:
 #       - data:/var/lib/mysql
   redis:
     image: redis:8.2.1-bookworm
+    host: 167.235.144.204
     env:
       clear:
         ALLOW_EMPTY_PASSWORD: "yes"
