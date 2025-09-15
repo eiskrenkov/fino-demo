@@ -9,9 +9,9 @@ gem "sqlite3", ">= 2.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
-gem "fino", "1.1.2"
-gem "fino-redis", "1.1.2"
-gem "fino-rails", "1.1.2"
+gem "fino", "1.1.4"
+gem "fino-redis", "1.1.4"
+gem "fino-rails", "1.1.4"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false

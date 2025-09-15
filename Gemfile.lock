@@ -91,13 +91,13 @@ GEM
     ed25519 (1.4.0)
     erb (5.0.2)
     erubi (1.13.1)
-    fino (1.1.2)
+    fino (1.1.4)
       zeitwerk (~> 2.5)
-    fino-rails (1.1.2)
-      fino (~> 1.1.2)
+    fino-rails (1.1.4)
+      fino (~> 1.1.4)
       rails (~> 8.0)
-    fino-redis (1.1.2)
-      fino (~> 1.1.2)
+    fino-redis (1.1.4)
+      fino (~> 1.1.4)
       redis (~> 5.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
@@ -273,9 +273,9 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
-  fino (= 1.1.2)
-  fino-rails (= 1.1.2)
-  fino-redis (= 1.1.2)
+  fino (= 1.1.4)
+  fino-rails (= 1.1.4)
+  fino-redis (= 1.1.4)
   kamal
   propshaft
   puma (>= 5.0)
